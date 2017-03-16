@@ -14,7 +14,6 @@
       <url>http://127.0.0.1:8888/maven2/</url>
     </repository>
   </repositories>
-  <build>
 
   <dependencies>
     <dependency>
@@ -24,6 +23,7 @@
     </dependency>
   </dependencies>
 
+  <build>
     <plugins>
       <plugin>
         <groupId>org.kie</groupId>
